@@ -29,12 +29,11 @@ Alignment of the contigs/genome assembly to the reference is the simplest and be
 
 Visualisation of these bam files can be done using tools like [mauve](https://darlinglab.org/mauve/mauve.html) or [IGV](https://igv.org/).
 
-### Dotplots
-A fast but lower resolution method to compare these assemblies is using dotplots, performed in tools like [gepard](https://github.com/univieCUBE/gepard).
-
 ### Compare Assemblies
 Ryan Wick developed a script, [compare_assemblies.py](https://github.com/rrwick/Perfect-bacterial-genome-tutorial/wiki/Comparing-assemblies), for comparing different assemblies (initially intended for assemblies pre-polishing and post-polishing). However, when assemblies are structurally very similar to the reference, it is possible to use this script to identify SNPs and INDELs found in the new assembly.
 
 However, one challenge can be identifying which of these errors are true positives and which are false positives (i.e. wrong in the reference). One way to deal with this is to examine the evidence for these at a read level.
 
+### Dotplots
+A fast but lower resolution method to compare these assemblies is using dotplots, performed in tools like [gepard](https://github.com/univieCUBE/gepard).
 

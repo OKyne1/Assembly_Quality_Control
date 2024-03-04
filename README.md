@@ -11,4 +11,6 @@ N50, NG50 etc
 ### BUSCO
 ### Quast
 ### Alignment (to reference if availible)
-### 
+### Contamination?
+#### Checking reads (kraken and pavian)
+#### Checking assemblies (?)

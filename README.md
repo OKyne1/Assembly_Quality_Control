@@ -25,12 +25,5 @@ Alignment of the contigs/genome assembly to the reference is the simplest and be
 
 Visualisation of these bam files can be done using tools like [mauve](https://darlinglab.org/mauve/mauve.html) or [IGV](https://igv.org/).
 
+### Dotplots
 A fast but lower resolution method to compare these assemblies is using dotplots, performed in tools like [gepard](https://github.com/univieCUBE/gepard).
-
-## Tools
-### BUSCO
-### Quast
-### Alignment (to reference if availible)
-### Contamination?
-#### Checking reads (kraken and pavian)
-#### Checking assemblies (?)

@@ -22,7 +22,7 @@ BUSCO shows the presence of **conserved single** copy genes present in an evolut
 CheckM provides a similar function to BUSCO. However, it relies on marker genes present in the taxonomic group. Unlike with BUSCO this enables the detection of contamination.
 
 ## Comparison to reference
-In most cases of *de novo* genome assembly there is no reference availible for comparison. However, occasionally when developing new sequencing methods *de novo* assemblies can be compared to a reference genome. This makes quality assessments much simpler.
+In most cases of *de novo* genome assembly there is no reference availible for comparison. However, occasionally when developing new sequencing/assembly methods *de novo* assemblies can be compared to a reference genome. This makes quality assessments much simpler.
 
 ### Alignment and Visualisation
 Alignment of the contigs/genome assembly to the reference is the simplest and best way to assess the success. For bacterial genomes, it is important to have genomes/contigs correctly rotated for alignment (e.g. using [circlator](https://sanger-pathogens.github.io/circlator/). Alignment can then be performed by tools like [minimap2](https://github.com/lh3/minimap2) to output a sorted indexed bam file. 

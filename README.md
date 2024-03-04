@@ -6,13 +6,17 @@ This is a repository describing quality control methods and tools to assess geno
 Correctness is the base level accuracy of the assembly. The more correct the assembly, the fewer single nucleotide polymorphisms (SNPs) or insertions/deletions (INDELs) it will have.
 
 Approaches to test correctness:
-1. K-mer fequency based approaches (e.g. [yak](https://github.com/lh3/yak) and [merqury](https://github.com/marbl/merqury))
+1. K-mer fequency based approaches (e.g. [yak](https://github.com/lh3/yak) and [merqury](https://github.com/marbl/merqury)) (this may need short reads - determine)
+2. Frameshift detection using transcript data
 
 ### 2. Contiguity
-### 3. Completeness
+1. N50/NG50
+2. QUAST Nx/NGx
 
-## Metrics
-N50, NG50 etc
+### 3. Completeness
+1. [BUSCO](https://busco.ezlab.org/)
+2. [CheckM](https://ecogenomics.github.io/CheckM/) (also detects contamination)
+
 
 ## Tools
 ### BUSCO

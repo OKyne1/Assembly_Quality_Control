@@ -17,6 +17,10 @@ Approaches to test correctness:
 1. [BUSCO](https://busco.ezlab.org/)
 2. [CheckM](https://ecogenomics.github.io/CheckM/) (also detects contamination)
 
+BUSCO shows the presence of **conserved single** copy genes present in an evolutionary group. This is a standard and useful approach for assessing the quality of a genome assembly. However it has its limitations, we observed some of these in *O. tsutsugamushi*. Orientia spp. have lost 8% of the single copy genes present in the rest of rickettsiales and the database. Another limitation observed was that assemblies could score very highly in BUSCO, yet still be highly fragmented. This is because the repetitive sequences, which lack the conserved single copy genes, are challenging to assemble.
+
+CheckM provides a similar function to BUSCO. However, it relies on marker genes present in the taxonomic group. Unlike with BUSCO this enables the detection of contamination.
+
 ## Comparison to reference
 In most cases of *de novo* genome assembly there is no reference availible for comparison. However, occasionally when developing new sequencing methods *de novo* assemblies can be compared to a reference genome. This makes quality assessments much simpler.
 
